@@ -1,0 +1,61 @@
+.house{
+    flex: 0.5;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+.image {
+    position: relative;
+    object-fit: contain;
+    padding: 0px;
+    height: 220px;
+    width: 390px;
+}
+
+.house_top {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 0;
+    z-index: 10;
+    position: fixed !important;
+}
+
+.spacing {
+    margin-right: 250px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.579);
+    border-radius: 20px;
+    padding: 2px 10px 2px 10px ;
+    font-size: 10px;
+}
+
+.house_bot {
+    padding: 10px;
+    margin-right:4px;
+    margin-top: -6px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.238);
+    cursor: pointer;
+}
+
+.house_bot > h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.house_bot > h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.house_bot > h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.house_bot > p {
+    font-size: 10px;
+    font-weight: 400;
+}

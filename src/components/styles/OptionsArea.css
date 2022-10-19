@@ -1,0 +1,29 @@
+.options_area{
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    border-bottom: 1px solid #0000001A;
+}
+
+.inputbox > input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 242px;
+    font-size: 13px;
+}
+
+.inputbox{
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid #00000037;
+    padding: 8px;
+    min-width: 280px;
+    justify-content: space-between;
+    margin-left: 14px;
+}
+
+.search_icon {
+    color: rgb(101, 95, 224);
+}

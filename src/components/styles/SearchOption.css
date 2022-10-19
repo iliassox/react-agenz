@@ -1,0 +1,38 @@
+.search_option {
+    display: flex;
+    align-items: center;
+    border: 2px solid #00000037;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 15px;
+    width: 100px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.search_option > h5 {
+    font-weight: 500;
+    margin-top: -1px;
+    color: blue;
+}
+
+.dot {
+    color: red;
+    height: 10px !important;
+    width: 10px !important;
+    margin-bottom: -2px;
+    margin-right: 2px;
+}
+
+.--selected {
+    border-color: blue;
+}
+
+.--search > h5{
+    color: white;
+}
+
+.--search {
+    background-color: blue;
+    width: 80px;
+}
